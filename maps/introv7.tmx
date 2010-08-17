@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.1.v" orientation="orthogonal" width="40" height="40" tilewidth="64" tileheight="48">
+ <tileset name="_moveMatrix" firstgid="1" tilewidth="64" tileheight="48">
+  <image source="moveMatrix.png"/>
+ </tileset>
+ <tileset name="ground3" firstgid="16" tilewidth="64" tileheight="48">
+  <image source="ground3.png"/>
+ </tileset>
+ <tileset name="mountains" firstgid="88" tilewidth="64" tileheight="48">
+  <image source="mountains.png"/>
+ </tileset>
+ <tileset name="mountain1" firstgid="445" tilewidth="64" tileheight="48">
+  <image source="mountains1.png"/>
+ </tileset>
+ <tileset name="mountain tunels" firstgid="768" tilewidth="64" tileheight="48">
+  <image source="mountains3.png"/>
+ </tileset>
+ <tileset name="path" firstgid="924" tilewidth="64" tileheight="48">
+  <image source="tileset2.png"/>
+ </tileset>
+ <tileset name="wall" firstgid="988" tilewidth="64" tileheight="48">
+  <image source="wall.png"/>
+ </tileset>
+ <tileset name="wallStairs" firstgid="1260" tilewidth="64" tileheight="48">
+  <image source="wallstairs.png"/>
+ </tileset>
+ <tileset name="wallTowers" firstgid="1356" tilewidth="64" tileheight="48">
+  <image source="walltowers.png"/>
+ </tileset>
+ <!-- Layer data is compressed (GZip) binary data, encoded in Base64 -->
+ <layer name="FXground" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2WS0vDQBCAg54FK1Xx0YfoxTc+qIhW8V1vStVfVxVBEUELoj3YixYPgoon8fc4izMwjrvZTZqSCj18kMdm58vMTjZFz/OKIUkDu8CRoACMAFNAJ5DQjCHGcNy0mKuA537xn9t/8Buzr4m5BvQCOaAP6Ge+R+hCTrM4bkHMtYfn9fqlMTa9+yKQRa8e9KSxyiOFLuSkrufZXOSdAZIONbyw+Mk8qtwNAwMYL2N5Tr3DFnsP7u3idwl+x8CNwfMarp8Dq6LGgw5zF7H2Kcz3Er7bZAC/EnpV0FNxxY7v239ysBPSj7OB9aX1a/O7g9ivmryVxLWk97dHVkL48TWq8rlqcXsw9Af5TQDdQJfGbxsYD+lI63LHwc3kp56f13hx5nA9dSOTFiddTXT33tHJz09XUxsqp72GmBLqN3n9A2J/Mqco/Vz7hvebvPclfEx+9F0Y8n7vQ+p8tE4/+k7r/GRv6mosx+TEHDMGR9oXXPs4EdLvXZNTidyXldu6oxvvEZufdCyL9elXoyyuAdpzg7hJvxPcD84MsZXfI353gsYJC/fT5Y2j8vbisw9HRZ4dpx39yixvah++bZAj/cvQ/49p3fF+KGtqWmX/B4SMJe9LdHWgf8ll72+fnxrmcemFoKj3r6Ajresai7PJ8tnItWRDOT4Bb0hN5CIdgxOnzNx0jgcx+9mI2+9QQwc7bkY/Tpx+NreW3//1c3GL2q/aBt+vtmi8ovZTblWLW5x+Ude15fc//YI6Nvv3JQ63Fi0434em8vgAGQAA
+  </data>
+ </layer>
+ <layer name="FXwall" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2WzyuDcRzHv+vZppBEUaIcuDn6E7jvQHHDxXLjgCs1bhTDQXGgrfw8mcLFxc9SLlvbbYfNj5MVGVFej32f9jQ2lL6Wvu96tfU8n/V+9ez5Ps9XCB0dHR0dHR0dHR2dYkvAJUTQlf98hTv7fZ25DdgsMP/b2aErVKCvwea3x9w+HCj0O6brBEqh7JPeFpvfKefP4FyhX5iuCFRBNSQMIaJOIWIwBdMwCzPyM8pMTKFfgq4kPON1SL8PAhCEJViGO0hBJVwze6PQ756uB/P/pfsSRiEEu7AF25CGJ2iER2bTCv2s1NEdhxI4gmNn5rjXvP/wcUgnD8cdTvV+Zvz01n7RrdLvhXvu1cisCRPxjW6VfuX0DNnogV7oc+f/jem3qMivXnrFjewaHSyi6+eWz5OUkV2jY0Xo974mbGu0UFT61Ui/n/R55D2qIk3Sr/kHfV1c425Fz+dWvNbgAga+6diPm1eRXxtO7TAiHcMQyeNp7W+GYUSRXwcunTApHZNwBbfGR6z9jQ8mFL5/5/FZsDmO5+DNwY/bnOL9gd0x18/uaGYFt9U/2L9Yjv8lb3Qtx0YAGQAA
+  </data>
+ </layer>
+ <layer name="FX_groy lacz" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2WOy+DURjH354FIxMGElYJCR+AhA9gqA8gVFhd6ja61ILFbUIkbpNb4rag7YKF0MFlIdrBZcTo9+atvE0Ty9vnpCd40l/OSZM+59ee9/x7LOu/fnX5ePmyLfFz5eNWYLBfGW7lBvtV41ZjsF89bg0G+/lxazLYL4Bbm8F+fyVf+ujRr+F7SuWLLj+pfNHlJ5EvJcqySpXjF2Y8UjJudknkSyU+VUm/AbgQ9JPIl1p86lL8HgT9gvTrzdCvUTnPXzt0CP8fheg1JtDPb7l+/szbuSWUz9+/n3RJ3v9MzmddJZHPzcnz2sLYCgHB8yuRz534dEE39EDQsHwewmcYRmAUQobl8xQ+0zADszBnWD4v47MCq7AG64J+Evm8i88e7MMBHAr6ecmX8bT143y+Ak55/wzOBf285IvtNwGTynW7YX4Ld3Cf5XyZZ/0FWFSO2xLjM7zAK7xlOV82WH8TtmAbdgR90stLvhzjc6Kcu3IEohr9vOzvpXLvUtfMYxr9vOzvY4pfnHlC2C9M3whEPeZe6l15ED6F/a7sfYGYofeqJ5+TWwlD/d7x+rD3xVC/HJ6XXMjTeO4yqUK8iqAYvgA9l9zwABkAAA==
+  </data>
+ </layer>
+ <layer name="FX_gory" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAM2XyU4UQRyHq4Yr4HJCjNHI5kENyeCWuFxExaAeVBBQ4SAaB/DoElluLhcZ0IByVBBuHlzQVzDhCUx4Ao0vIMJX6a5MGyYxmf51Uv/kS1e6q7q+VE9+U5W3xrRBqHUat/aA/a7i1hWw323c7gTs9wC3hwH7PcPtecB+BjcbsN823LYH7LcXt4aA/fKCfO6BXuiD6wKnZCnyuQBDMAwjAqdkKfL5MYzCGIwLnJKlyOc/jF+DvzAq/i0r8rkmZ0wtbIGt8CGncXOlzOdbeA0K3Vwp86+minWs0rzLlyL/1qAOrx1QDzuFjor8q2V8I05N0AwtQj9F/u1mfCtOd7kWIC/0U+1Pn5jIT/E9kqXan86ayE99XlDtT5fgitWfF1T59w0GbQbnBdH+9Dvct/rzgiqff8BTqz8vKPJ5hvGz8BrewJzQT50H6lLkQZE9wRQcFe8NXFWaB5OxS9KtIwO/tHng3Kpt5NabgZ/Pg5UKHZ1bT+w2lIGfz4PVFGvo3X5l4Gfi77uSYg1/ZuVmSt93NeUaZlX++/6OqbTmM1o/dyZcd165mMDKnwn3wwE4CLv+4/nIlvbK7rx72USkqQbmbIQmaIYW2Ad74DicgJNwCoaZcwTu2ajtr+7eFO+ahpfwCuZgxvzbp5J2G/MegsNwJM77Y9AJF+AiXIJ55lqA97AI44ydgDEbtd9y753Z3G8i8axcn3L9/Ttdu525z8BZOBf/F52HG3AT+mEAPjP2CyzDV5hkbBFe2Kj9kXufzOZ+xcSzcn3K9ffvdO0u5u6Ga7lS3vfBBhhmjOgAGQAA
+  </data>
+ </layer>
+ <layer name="_moveMatrix" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2Y0W7CMAxFAwzWdsD/fy5YirW7K6d14jTdA5YstJE4B9ux3Z5SSqfUJl95r6Vz/ny89WdlnVdb5btg75L5z/lzLqw7wzq0daO/W8U6e87nXTMnr0UmtoXcyHd/60L2agRtTemv/9bkmn79rYy6pxSbKJ/GxyPoU2HV38Y2cV2tqA9a+JgV87dH/qVkx6GFTxnVT1E+jcfd4MOcarUdyTkrppZOoDW8HJNaKd2tLfUyHsXnyUsrNrWieVzqCxE+q29GhG2t9WVv/RIb2Ld78olY8a+trb3qH88nEkOMf2vd36s+L0F7lt2o9MxnFczjqPTg07qCtbwX30xqnb1Vm3GWfOb1o/xXe07vfPHyefvwUXxSZ2Te4XxgPYoPZwSrz/ac6Wv4pIbLs6b45gZs6LMn/K/X85uXD0XP5p6Cd/8/8HnWjODTuGIvHsnHec4znjXzjeKz7iDnlfLJeQucuzefxfYonKV8eEf35POyMZ/22C2J8nnZmM8rET6u8WtsrXySp/jcXyNb98Far++zvLN1pL/V7tXnEw+jzjcj+SzG0tyi881oPmZck9K7HfH75FDe59nDe0vfl96FfbRNX/0KmB0AGQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Group 5" width="0" height="0" x="1" y="2">
+  <object name="Object" x="63" y="43" width="128" height="128">
+   <image source="tree.png"/>
+  </object>
+  <object name="Object" x="133" y="51" width="128" height="128">
+   <image source="lumberjack.png"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="_ContextActions" width="0" height="0" x="1" y="2">
+  <object name="Lumberjack" x="167" y="90" width="64" height="48">
+   <properties>
+    <property name="Talk">
+     <![CDATA[if (player.distance(p) > 5)
+gui.toast("you are to far");
+else 
+gui.info("I never liked to cut trees they are so peacefull harmless i hate to kill them ");]]>
+    </property>
+   </properties>
+  </object>
+  <object name="North Tunel" x="2048" y="886" width="128" height="48">
+   <properties>
+    <property name="Enter">
+     <![CDATA[if (player.distance(p) <5)
+player.goTo(33*2,24*2);
+else 
+gui.toast("You are to far");]]>
+    </property>
+   </properties>
+  </object>
+  <object name="South Tunel" x="2048" y="984" width="128" height="48">
+   <properties>
+    <property name="Enter">
+     <![CDATA[if (player.distance(p)<3)
+player.goTo(34*2,20*2);
+else 
+gui.toast("You are to far");]]>
+    </property>
+   </properties>
+  </object>
+  <object name="West Tunel" x="1047" y="723" width="64" height="98">
+   <properties>
+    <property name="Enter">
+     <![CDATA[if (player.distance(p)<3)
+player.goTo(22*2,18*2);
+else 
+gui.toast("You are to far");]]>
+    </property>
+   </properties>
+  </object>
+  <object name="East Tunel" x="1321" y="720" width="64" height="98">
+   <properties>
+    <property name="Enter">
+     <![CDATA[if (player.distance(p) <3)
+player.goTo(17*2+1,18*2);
+else 
+gui.toast("You are to far");]]>
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 7" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BAQ0AAADCoPdPbQ8HFAAAAAAAwJcBSxPzAQAZAAA=
+  </data>
+ </layer>
+</map>

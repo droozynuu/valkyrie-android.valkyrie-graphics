@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.1.v" orientation="orthogonal" width="100" height="100" tilewidth="64" tileheight="48">
+ <tileset name="_moveMatrix" firstgid="1" tilewidth="64" tileheight="48">
+  <image source="moveMatrix.png"/>
+ </tileset>
+ <tileset name="ground3" firstgid="16" tilewidth="64" tileheight="48">
+  <image source="ground3.png"/>
+ </tileset>
+ <tileset name="castle" firstgid="88" tilewidth="64" tileheight="48">
+  <image source="castle.png"/>
+ </tileset>
+ <tileset name="Road" firstgid="232" tilewidth="64" tileheight="48">
+  <image source="tileset2.png"/>
+ </tileset>
+ <tileset name="walltower" firstgid="296" tilewidth="64" tileheight="48">
+  <image source="walltowers.png"/>
+ </tileset>
+ <tileset name="wall" firstgid="581" tilewidth="64" tileheight="48">
+  <image source="wall.png"/>
+ </tileset>
+ <tileset name="wallstairs" firstgid="853" tilewidth="64" tileheight="48">
+  <image source="wallstairs.png"/>
+ </tileset>
+ <!-- Layer data is compressed (GZip) binary data, encoded in Base64 -->
+ <layer name="Background" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cy06DQBhAYR5Brda7Jrp06Vp3PoFJ3/9RnCYQCQVm2k6ZAz2LkxjFZPi/cukCNlVVbcws2kXoOdJla/tfwJqX3FM943Xotv652zVgnedS4/ESetWjeI3HWH0eKec5S2vMY13tnrf6PFIcLa2+uTYOfectPabz+K5/l3r9aP5fj9N4fIY+Itt7fEznkWKix7QebZOv1nbNNeWh2r0nuAfsx1IauvfdmvxU//dXzTXlLnTT6RGwH0sp9p1kFXoLvdezv+rZxvPVdB65vkeaHnNMD1Z6sNKDlR6s9GClBys9WOnBSg9WerDSg5UerPRgpQcrPVjpwUoPVnqw0oOVHqz0YKUHKz1Y6cFKD1Z6sNKDlR6s9GClBys9ypfDQI98Bqe0mbrScz3GIuZEa+i9KN13Ps2llDWXnvlYq2r3Od7t873tZ0pLz3gfh5T1lp75vj5ti2fArHMcE3PyGDpnzeHYOGSNpecda+jejeyx7zGxFI9upR2OtZizx9h71WJGOf1yfy5Kz/tQjyGf1H0b+/uU81+qx6nnkfu40iPPjEp9HigRPErZE9ODlR6s9GClBys9WDM7t3eX0j3OLT1Y6cFKD1Z6sNKDlR6s9GClBys9WOnBSg9WerDSg5UerPRgpQcrPVjpwUoPVnqw0oOVHqz0YKUHKz1Y6cFKD1Z6sNKDlR6s9GClBys9WP0BXCqA8ECcAAA=
+  </data>
+ </layer>
+ <layer name="Layer 1" width="100" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3c3UpUURjG8eXseykIvADB0z4goROF0ToKrdNK7EgNrESNinIqCmrGFPwAnVE6dSY9r2voEroEH3AGN+EOdm33etea/w8e2Fs8WLwP44xrFts5AP+qqowrE8ptz2uBc5PKlHJPue95LXDugfJQeaRMe14LnJtV5pR55YnntcC5JWVZWVFeeF4LnKsp75T3ygfPa0F+CwPOPVWeDZz97ErOaxTnjeb6VllNzXco5zWK09Bc15SvqfneyHmN4jQ115ZyvZI/KF5bXXSUkUr+oHg/1MVP5U4lf1C8a5rrVWWQ9wMTen0M04cJvT5u0ocJvT5gA33YQh+28PnKFj5f2cLnK1t4/7Alxj5CPmMTYx8hn7GJsY+Qz9jE2EfIZ2xeqotXkfUR8hmbz+rii/I6ok5CPmOzqx7qiXONJK5OQnWoDjbVxVZy+jpp/OX78lH6KkVTXbSUPc37lzKWkVv6nbt0Upq2Zj2jmT9Osju5lPheZX+Z07znk+zXCX2U67nmvaj8zvjbRR/lqaZvMjqhD4/O6STdx0fdf+L9vVx/dJLuY1v3O/RRvlQnl1N9rOq+Rh9+dDupd/9nXFPWlQ36uDC11PW5+z7qpKn5t5R95UD5Rh9edTT/78qRckwXAAAAAID/FNq5TgAAAAAAAAAA+lXIz22IUcjPbYhRyM9tiFHIz22IUcjPbYhRyM9tAAAAQHHY57GFfR5b2OexhX0eW9jnsYV9HgAAcFHYN7CFfQNb2DewhX0DW9g3sIV9AwAAgPidAPsHoN5AnAAA
+  </data>
+ </layer>
+ <layer name="Layer 4" width="100" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OOQ7CABAEwX2qwSlHypGCSTlSsL/K/GIlqJI67yoAAAAAAAAAAAAAAPg/Q1qldRp7V4hN2qZd2je/UHVIx3RK5+YXqi7pmqZ0a36h6p4e6ZlezS9UvdMnzWlpfgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+yxcA12DLQJwAAA==
+  </data>
+ </layer>
+ <layer name="_moveMatrix" width="100" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ajW7CIBhG4Trdv273f7eT2C9DpKWtBd7ScxISZ+d0PBHa6KHrugODwUiOy3V8RoYdd7e/BV7nXsZbd+v1Oo797bN33N33LvA69zLM43QdL/3t8Dge5T38pngMrXOM+WPM43WiR8yRlhWbV9s/bN0yOxceeUvtH2EpD/9cgOYXzm1qLlMedh8tK7avj5ngkbehc63QxN9TwnMCf22zxy85t6D0ObC52J7iXD6CcZzx98YGpefoq7uf+3Pkd/z16plrRlr/OtI8aFl4aIWHVnhohYdWeGiFh1Z4aIWHVnhohce07H8t9Tx4DBf+vyWfC4/H8NAKD6227OF+/u1un5u01Fb381OXNjmPHNt7a3u47HNEZxJ+Ru5/HxuTx3J4uDm/9MfC70WEn+Vicl8OD8vWLt8k9Ght73+2nB4uW7vMxPe4dHiE5faIrV3h94Hpv9weVmztcuFxXykP19B+Ytl3vPZcSQ9XaOJ7tHhtP7fSHi7fBI/7ani4/Ot4299/+vv2XC0Pl5n4Y+/V9KDH8NAKD63w0AoPrfDQag2PmqO1cr4/UnP3zBzjobVe4VHWY+h90/Ja5VL1sNcWe53hsZbaisecY1tuyx5LzgPU26pH7HenGin7teIx9PgxpzmGsb+Zo5Y9lj5nyq/G8+/VI1bJPQoPrfDQCg+t8NBqDY+1Ruy17a3aBnONWi/XesW8L6vk/sHcpyvpQenw0AoPrfDQCg+t8NAKD63w0AoPrfDQCg+t8NDK5jT8GQ+t8NAKD63w0AoPrfAgGo73h1Z4aIVHvfxrdK7P67Zk/vHIFx5a4aEVHlrhoRUeWuGhFR5a4aEVHlr9AY8zfGBAnAAA
+  </data>
+ </layer>
+ <objectgroup name="_ContextActions" width="0" height="0" visible="0">
+  <object name="South Tower Door" type="action" x="1312" y="570" width="64" height="48">
+   <properties>
+    <property name="Enter">
+     <![CDATA[player.goTo(22*2+1,11*2)]]>
+    </property>
+    <property name="Look">
+     <![CDATA[sc.toast("very interesting door, it must lead somewhere");]]>
+    </property>
+   </properties>
+  </object>
+  <object name="West Tower Door" x="1368" y="536" width="64" height="48">
+   <properties>
+    <property name="Enter">
+     <![CDATA[player.goTo(21*2,13*2);]]>
+    </property>
+    <property name="Look">
+     <![CDATA[sc.toast("Wooow i never seen such a beutyful wooden door !!!");]]>
+    </property>
+   </properties>
+  </object>
+  <object name="Teleportation Castle" x="673" y="294" width="64" height="48">
+   <properties>
+    <property name="Enter">
+     <![CDATA[1 < 2 ;p = player.getPath(22,14);
+if(p == null || p.getLength() >= 3 ) 
+	sc.toast("You are to far");
+else
+	sc.load(sc.z2);]]>
+    </property>
+    <property name="Look">
+     <![CDATA[sc.toast("this is very interesting ");]]>
+    </property>
+   </properties>
+  </object>
+  <object name="Lake" x="674" y="551" width="64" height="48">
+   <properties>
+    <property name="Look">
+     <![CDATA[sc.toast("It is wet !!");]]>
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
